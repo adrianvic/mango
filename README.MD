@@ -1,0 +1,17 @@
+# Mango
+Obliterates rounded corners... BECAUSE I HATE THEM
+
+ ![Mango configuration UI](https://addons.mozilla.org/user-media/previews/full/307/307501.png?modified=1729803414)
+ ![Mango VS YouTube default design](https://addons.mozilla.org/user-media/previews/full/307/307505.png?modified=1729803420)
+
+## How it works
+``* {
+  border-radius: 0 !important;
+}``
+That's everything we inject into your page, feel free to check the source code to be sure we're not doing anything malicious.
+
+## Why 'Mango'
+Mango is the codename of the first Windows Phone OS to have a codename (Windows Phone 7.5). I had a WP as a child and I always loved the "minimalist square" design of Windows Phone.
+
+## Contributing
+Just do a pull request
