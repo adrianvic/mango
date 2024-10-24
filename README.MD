@@ -1,8 +1,8 @@
 # Mango
 Obliterates rounded corners... BECAUSE I HATE THEM
 
- ![Mango configuration UI](https://addons.mozilla.org/user-media/previews/full/307/307501.png?modified=1729803414)
- ![Mango VS YouTube default design](https://addons.mozilla.org/user-media/previews/full/307/307505.png?modified=1729803420)
+<img src="https://addons.mozilla.org/user-media/previews/full/307/307501.png?modified=1729803414" alt="Mango configuration UI" width="200"/>
+<img src="https://addons.mozilla.org/user-media/previews/full/307/307505.png?modified=1729803420" alt="Mango VS YouTube default design" width="400"/>
 
 ## How it works
 ``* {
