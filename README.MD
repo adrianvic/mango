@@ -1,5 +1,5 @@
 # Mango
-Obliterates rounded corners... BECAUSE I HATE THEM
+Obliterates rounded corners... BECAUSE I HATE THEM <a href="https://addons.mozilla.org/en-US/firefox/addon/mangocorners/"><img src="Firefox-badges.jpg" alt="Firefox Addon Store Icon" width="80"/></a>
 
 <img src="https://addons.mozilla.org/user-media/previews/full/307/307501.png?modified=1729803414" alt="Mango configuration UI" width="200"/>
 <img src="https://addons.mozilla.org/user-media/previews/full/307/307505.png?modified=1729803420" alt="Mango VS YouTube default design" width="400"/>
