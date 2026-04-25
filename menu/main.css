@@ -1,11 +1,22 @@
+:root {
+    --accent: orangered;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: black;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1em;
 }
 
 a {
-    color: orangered;
+    color: var(--accent);
     text-decoration: none;
 }
 
@@ -26,26 +37,53 @@ body::before {
     opacity: .25;
 }
 
-#whitelist {
+textarea {
+    outline: medium solid transparent;
+    transition: .4s;
     background-color: black;
     margin-bottom: 10px;
     color: white;
+    border: thin solid white;
+    padding: .4em;
 }
 
-#title {
+textarea:focus {
+    outline-color: var(--accent);
+}
+
+h1 {
     font-weight: 300;
-    font-size: 50px;
+    font-size: 3em;
     margin: 0;
 }
 
-#whitelistSave {
+h2 {
+    margin-bottom: .4em;
+}
+
+button {
+    transition: .2s;
     border: 1px solid white;
     background-color: black;
     color: white;
     font-size: large;
+    padding: .2em;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
 }
 
 h2 {
     font-weight: 300;
     margin-top: 0;
+}
+
+footer {
+    margin-top: 1em;
+}
+
+#version {
+    opacity: .6;
 }

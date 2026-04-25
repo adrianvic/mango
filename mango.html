@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mango</title>
-  <script src="mangoui.js" defer></script>
-  <link rel="stylesheet" href="mangoUI.css">
+    <title>Mango</title>
+    <script src="menu/main.js" defer></script>
+    <link rel="stylesheet" href="menu/main.css">
 </head>
 <body> 
     <h1 id="title">mango</h1>
     <h2 id="source">whitelist</h2>
     <textarea placeholder="Domain only, separated by new line, see the example:
-example.com
-example2.com" id="whitelist" rows="10" cols="30"></textarea><br>
+    example.com
+    example2.com" id="whitelist" rows="10" cols="30"></textarea><br>
     <button id="whitelistSave">save</button>
-    <p><a href="https://git.disroot.org/adrianvictor/mango">source-code</a></p>
+    <button id="toggle">enabled</button>
+    <footer>
+        <p><span id="version">v2</span> Adrian Victor <a href="https://github.com/adrianvic/mango">(source-code)</a></p>
+    </footer>
 </body>
 </html>
